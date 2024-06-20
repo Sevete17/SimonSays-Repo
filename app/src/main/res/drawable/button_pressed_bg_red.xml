@@ -1,0 +1,17 @@
+<!-- button_pressed_bg.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- When the button is pressed -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/red_glow" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    <!-- Default state -->
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/red" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+</selector>
